@@ -41,7 +41,3 @@
 #  synchronize:
 #    src: '/var/lib/jenkins/workspace/Ansible_Project/'
 #    dest: '/var/www/html/'
-- name: replace ip in index.php file
-  command: sed -i 's/localhost/192.168.56.110/g' /var/www/html/res/connect.php
-  tags: replace IP
-
