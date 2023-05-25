@@ -37,6 +37,7 @@
   git:
     repo: '{{ repository }}'
     dest: '/var/www/html/'
+    force: yes
 #- name: Copy the code from repository
 #  synchronize:
 #    src: '/var/lib/jenkins/workspace/Ansible_Project/'
